@@ -3994,13 +3994,15 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 	}
 
 }
+
+/* ARCHIVARIA CUSTOMIZATIONS */ 
 /* Hide submissions login on Submissions page */
 
 .page.page_submissions .cmp_notification {
 	display: none !important;
 }
 
-/* Change order with flex */
+/* Change order of Announcements and Table of Contents on Homepage with flex */
 .page_index_journal {
 	display: flex;
 	flex-direction: column;
@@ -4018,3 +4020,34 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 .additional_content {
 	order: 3;
 }
+
+/* Right sidebar login button */
+.login_button {
+	border: none;
+	background-color: #007ab2; 
+	color: white;
+	padding: 15px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: noto sans;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 10px;
+  }
+  
+  .login_button a {
+	  color: white;
+  }
+  
+  .login_button:hover a {
+	  color:  #007ab2;
+  }
+  
+  .login_button:hover {
+	background-color: white;
+	border: 1px solid #007ab2;
+	color: #007ab2;
+  }
