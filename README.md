@@ -3,3 +3,4 @@ Journal [website](https://archivaria.ca) style sheet with some custom changes (s
 
 * Hide submissions login on Submissions page
 * Move announcements below ToC on homepage
+* Login button in right sidebar
