@@ -4024,7 +4024,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 /* Right sidebar login button */
 .login_button {
 	border: none;
-	background-color: #007ab2; 
+	background-color: #001B64; 
 	color: white;
 	padding: 15px 10px;
 	text-align: center;
@@ -4043,11 +4043,10 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
   }
   
   .login_button:hover a {
-	  color:  #007ab2;
+	  color:  white;
   }
   
   .login_button:hover {
-	background-color: white;
-	border: 1px solid #007ab2;
-	color: #007ab2;
+	background-color: #007ab2;
+	color: white;
   }
